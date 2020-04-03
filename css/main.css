@@ -1,0 +1,141 @@
+/** BASE STYLES **/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+
+
+/** GRID **/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    margin: 0 auto;
+    width: 400px;
+}
+
+/** HEADER **/
+
+header {
+    background-image: url("../img/img-hero.png");
+    background-size: cover;
+    height: 800px;
+}
+
+header h1 {
+    color: #bdbf09;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    margin: 0px;
+    padding-top: 350px;
+    text-align: center;
+}
+
+header h2 {
+    color: #095256;
+    font-size: 30px;
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/** PORTFOLIO **/
+
+article {
+    float: left;
+}
+
+#portfolio {
+    background-color: #ffffff;
+    clear: both;
+    height: 900px;
+    padding: 45px;
+}
+
+#portfolio h2, #portfolio h3, #portfolio p {
+    color: #095256;
+    margin: 20px;
+}
+
+#portfolio h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#portfolio h3 {
+    font-size: 30px;
+    margin-bottom: -20px;
+
+}
+
+#portfolio img {
+    float: left;
+    margin: 20px;
+}
+
+/** ABOUT **/
+
+#about {
+    background-color: #087e8b;
+    clear: both;
+    height: 500px;
+    padding: 45px;
+}
+
+#about h2, #about p {
+    color: #ffffff;
+}
+
+#about h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#about img {
+    float: right;
+    margin: 20px;   
+    width: 350px;
+
+}
+
+/** CONTACT **/
+
+#contact {
+    background-color: #095256;
+    clear: both;
+    height: 300px;
+    padding: 45px;
+    text-align: center;
+}
+
+#contact h2, #contact h3, #contact p {
+    color: #ffffff;
+}
+
+#contact h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+#contact h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+}
+
+#contact img {
+    padding: 0px 25px 0px 25px;
+}
